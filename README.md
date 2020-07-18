@@ -1,3 +1,10 @@
+Just a little app to generate random cat facts and images
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
