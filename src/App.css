@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&display=swap");
+
+body {
+  background-color: #ffeaa7;
+  font-family: "Source Code Pro", monospace;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.fact {
+  font-size: 1.4rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.intro {
+  font-size: 1.1rem;
+}
+
+.btn {
+  letter-spacing: 0.1rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+}
+
+.card {
+  border: none;
+}
+
+h1 {
+  font-size: 1.6rem;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: auto;
+  max-width: 450px;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 2.1rem;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+  .intro {
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
